@@ -1,0 +1,1698 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="《生成式人工智能与数字产品出口》课程论文汇报网站"
+    />
+    <title>生成式人工智能与数字产品出口｜课程论文汇报</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="viewport" aria-label="论文汇报演示">
+      <section class="slide slide--cover is-active" data-slide="0" aria-labelledby="paper-title">
+        <div class="paper-grid" aria-hidden="true"></div>
+
+        <svg class="network" viewBox="0 0 1600 900" aria-hidden="true">
+          <defs>
+            <linearGradient id="routeGradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#87b9df" stop-opacity="0.22" />
+              <stop offset="0.58" stop-color="#2978b8" stop-opacity="0.72" />
+              <stop offset="1" stop-color="#bb1730" stop-opacity="0.9" />
+            </linearGradient>
+          </defs>
+          <path class="network__route network__route--one" d="M770 174 C1025 154 1220 220 1532 142" />
+          <path class="network__route network__route--two" d="M690 682 C950 624 1170 716 1534 610" />
+          <path class="network__route network__route--three" d="M884 416 C1052 340 1235 366 1476 310" />
+          <circle class="network__node network__node--a" cx="868" cy="418" r="5" />
+          <circle class="network__node network__node--b" cx="1206" cy="366" r="5" />
+          <circle class="network__node network__node--accent" cx="1476" cy="310" r="7" />
+        </svg>
+
+        <div class="topline">
+          <div class="publication">
+            <span class="publication__mark"></span>
+            <span>数量经济技术经济研究</span>
+            <span class="publication__divider"></span>
+            <span>2026 年第 7 期</span>
+          </div>
+
+          <button class="utility" id="fullscreen-button" type="button" aria-label="切换全屏">
+            <span>F</span>
+            <span>全屏</span>
+          </button>
+        </div>
+
+        <div class="cover-layout">
+          <header class="title-block">
+            <p class="eyebrow reveal reveal--1">COURSE PAPER PRESENTATION · 课程论文汇报</p>
+
+            <h1 id="paper-title" class="paper-title">
+              <span class="paper-title__line reveal reveal--2">生成式人工智能</span>
+              <span class="paper-title__line reveal reveal--3">与数字产品出口</span>
+            </h1>
+
+            <p class="subtitle reveal reveal--4">——来自生成式人工智能服务备案的证据</p>
+
+            <div class="author-line reveal reveal--5">
+              <span class="author-line__label">论文作者</span>
+              <span class="author-line__names">李秋静&nbsp;&nbsp;·&nbsp;&nbsp;朱晓梅&nbsp;&nbsp;·&nbsp;&nbsp;刘斌</span>
+            </div>
+          </header>
+
+          <aside class="question-panel reveal reveal--4" aria-label="核心研究问题">
+            <div class="question-panel__head">
+              <span>RESEARCH QUESTION</span>
+              <span>01</span>
+            </div>
+
+            <div class="question-panel__body">
+              <p class="question-panel__label">核心研究问题</p>
+              <h2>
+                当生成式人工智能服务进入一个地区，它<span class="question-panel__accent">能否转化</span>为可观察的数字产品出口增长？
+              </h2>
+            </div>
+
+            <div class="evidence-chain" aria-label="研究证据链">
+              <div class="evidence-node evidence-node--1">
+                <span class="evidence-node__index">01</span>
+                <div>
+                  <strong>服务备案</strong>
+                  <small>技术应用</small>
+                </div>
+              </div>
+              <span class="evidence-chain__arrow" aria-hidden="true">→</span>
+              <div class="evidence-node evidence-node--2">
+                <span class="evidence-node__index">02</span>
+                <div>
+                  <strong>HS8 出口</strong>
+                  <small>宏观产品</small>
+                </div>
+              </div>
+              <span class="evidence-chain__arrow" aria-hidden="true">→</span>
+              <div class="evidence-node evidence-node--3">
+                <span class="evidence-node__index">03</span>
+                <div>
+                  <strong>企业提单</strong>
+                  <small>微观验证</small>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <footer class="cover-footer reveal reveal--6">
+          <div class="meta-item">
+            <span class="meta-item__label">研究视角</span>
+            <strong>宏观地区 + 微观企业</strong>
+          </div>
+          <div class="meta-item">
+            <span class="meta-item__label">样本窗口</span>
+            <strong>2021Q1—2025Q2</strong>
+          </div>
+          <div class="meta-item">
+            <span class="meta-item__label">经验策略</span>
+            <strong>多维固定效应 · 工具变量</strong>
+          </div>
+
+          <div class="page-count" aria-label="第 1 页，共 12 页">
+            <span>01</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+
+        <div class="red-rule" aria-hidden="true"></div>
+      </section>
+
+      <section
+        class="slide slide--overview overview-slide"
+        data-slide="1"
+        data-overview-step="1"
+        aria-labelledby="overview-title"
+      >
+        <div class="overview-grid" aria-hidden="true"></div>
+
+        <header class="overview-header">
+          <div>
+            <p class="section-kicker">PAPER AT A GLANCE · 论文全景</p>
+            <h2 id="overview-title">作者如何回答这个问题？</h2>
+          </div>
+
+          <div class="overview-header__meta">
+            <span>研究路径</span>
+            <strong>问题 → 证据 → 解释 → 评价</strong>
+          </div>
+        </header>
+
+        <div class="overview-layout">
+          <section class="paper-reader" aria-label="论文摘要动态阅读区">
+            <div class="paper-reader__topline">
+              <span>ORIGINAL TEXT / 论文原文</span>
+              <span class="paper-reader__step"><b>01</b> / 06</span>
+            </div>
+
+            <div class="paper-reader__viewport">
+              <div class="paper-canvas">
+                <div class="paper-page paper-page--intro">
+                  <img
+                    src="./assets/paper-page-02.png"
+                    alt="论文引言页，包含作者明确提出的研究问题"
+                    draggable="false"
+                  />
+                  <div class="paper-mark-group paper-mark-group--question" data-focus="1" data-label="原文中的研究问题">
+                    <i class="paper-mark paper-mark--q1"></i>
+                    <i class="paper-mark paper-mark--q2"></i>
+                    <i class="paper-mark paper-mark--q3"></i>
+                  </div>
+                </div>
+
+                <div class="paper-page paper-page--abstract">
+                  <img
+                    src="./assets/paper-page-01.png"
+                    alt="论文第一页摘要"
+                    draggable="false"
+                  />
+
+                  <div class="paper-mark-group paper-mark-group--data" data-focus="2" data-label="数据与识别方法">
+                    <i class="paper-mark paper-mark--d1"></i>
+                    <i class="paper-mark paper-mark--d2"></i>
+                    <i class="paper-mark paper-mark--d3"></i>
+                    <i class="paper-mark paper-mark--d4"></i>
+                    <i class="paper-mark paper-mark--d5"></i>
+                    <i class="paper-mark paper-mark--d6"></i>
+                  </div>
+
+                  <div class="paper-mark-group paper-mark-group--result" data-focus="3" data-label="作者的核心结论">
+                    <i class="paper-mark paper-mark--r1"></i>
+                    <i class="paper-mark paper-mark--r2"></i>
+                  </div>
+
+                  <div class="paper-mark-group paper-mark-group--mechanism" data-focus="4" data-label="三条机制的原文表述">
+                    <i class="paper-mark paper-mark--m1"></i>
+                    <i class="paper-mark paper-mark--m2"></i>
+                    <i class="paper-mark paper-mark--m3"></i>
+                    <i class="paper-mark paper-mark--m4"></i>
+                  </div>
+
+                  <div class="paper-mark-group paper-mark-group--extension" data-focus="5" data-label="异质性结论">
+                    <i class="paper-mark paper-mark--e1"></i>
+                    <i class="paper-mark paper-mark--e2"></i>
+                    <i class="paper-mark paper-mark--e3"></i>
+                    <i class="paper-mark paper-mark--e4"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="speaker-layer" data-focus="6">
+                <span>FROM SUMMARY TO ASSESSMENT</span>
+                <strong>从作者的结论，进入我们的判断</strong>
+                <p>研究贡献 · 识别假设 · 测量局限 · 结论边界</p>
+              </div>
+            </div>
+
+            <div class="paper-reader__caption">
+              <span id="paper-source-label">原文：论文第 2 页引言</span>
+              <span>蓝色标注为作者论证，红色标注为汇报者分析</span>
+            </div>
+          </section>
+
+          <nav class="research-map" aria-label="论文研究路线图">
+            <div class="research-map__axis" aria-hidden="true">
+              <span class="research-map__progress"></span>
+            </div>
+
+            <button class="map-item is-current" type="button" data-overview-target="1">
+              <span class="map-item__number">01</span>
+              <span class="map-item__content">
+                <span class="map-item__heading">
+                  <strong>研究问题</strong>
+                  <small>论文第 2—3 页</small>
+                </span>
+                <span class="map-item__detail">生成式 AI 能否促进数字产品出口？其具体作用机制是什么？</span>
+              </span>
+            </button>
+
+            <button class="map-item" type="button" data-overview-target="2">
+              <span class="map-item__number">02</span>
+              <span class="map-item__content">
+                <span class="map-item__heading">
+                  <strong>数据与测量</strong>
+                  <small>论文第 7—9 页</small>
+                </span>
+                <span class="map-item__detail">备案数据衡量生成式 AI；BERT-wwm-ext 与产业分类共同识别数字产品。</span>
+              </span>
+            </button>
+
+            <button class="map-item" type="button" data-overview-target="3">
+              <span class="map-item__number">03</span>
+              <span class="map-item__content">
+                <span class="map-item__heading">
+                  <strong>基准结果与识别</strong>
+                  <small>论文第 10—15 页</small>
+                </span>
+                <span class="map-item__detail">多维固定效应、企业层面验证、工具变量与多组稳健性检验。</span>
+              </span>
+            </button>
+
+            <button class="map-item" type="button" data-overview-target="4">
+              <span class="map-item__number">04</span>
+              <span class="map-item__content">
+                <span class="map-item__heading">
+                  <strong>机制检验</strong>
+                  <small>论文第 15—18 页</small>
+                </span>
+                <span class="map-item__detail">跨境搜寻匹配效率、出口产品种类和出口产品质量。</span>
+              </span>
+            </button>
+
+            <button class="map-item" type="button" data-overview-target="5">
+              <span class="map-item__number">05</span>
+              <span class="map-item__content">
+                <span class="map-item__heading">
+                  <strong>拓展分析</strong>
+                  <small>论文第 18—21 页</small>
+                </span>
+                <span class="map-item__detail">技术属性、产品属性与地区基础条件如何改变生成式 AI 的出口效应？</span>
+              </span>
+            </button>
+
+            <button class="map-item map-item--assessment" type="button" data-overview-target="6">
+              <span class="map-item__number">06</span>
+              <span class="map-item__content">
+                <span class="map-item__heading">
+                  <strong>批判性评价</strong>
+                  <small>汇报者分析</small>
+                </span>
+                <span class="map-item__detail">论文的边际贡献是什么？测量与识别假设又限定了怎样的结论边界？</span>
+              </span>
+            </button>
+          </nav>
+        </div>
+
+        <footer class="overview-footer">
+          <div class="overview-controls" aria-label="页面操作提示">
+            <span><kbd>↑</kbd><kbd>↓</kbd> 原文标注</span>
+            <span><kbd>←</kbd> 返回封面</span>
+          </div>
+
+          <div class="page-count" aria-label="第 2 页，共 12 页">
+            <span>02</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+
+        <div class="overview-accent" aria-hidden="true"></div>
+      </section>
+
+      <section
+        class="slide slide--motivation motivation-slide"
+        data-slide="2"
+        aria-labelledby="motivation-title"
+      >
+        <div class="motivation-grid" aria-hidden="true"></div>
+
+        <header class="motivation-header">
+          <div>
+            <p class="section-kicker">RESEARCH MOTIVATION · 研究动机</p>
+            <h2 id="motivation-title">两股趋势正在交汇，但经验研究尚未跟上</h2>
+          </div>
+          <p class="motivation-header__lead">
+            生成式 AI 已从技术突破走向规模化应用；与此同时，数字产品正成为国际贸易的新增长点。
+          </p>
+        </header>
+
+        <div class="trend-stage" aria-label="生成式人工智能与数字贸易发展趋势">
+          <section class="trend-column trend-column--ai">
+            <div class="trend-column__head">
+              <span class="trend-column__index">A</span>
+              <div>
+                <small>TECHNOLOGY DIFFUSION</small>
+                <h3>生成式 AI 加速扩散</h3>
+              </div>
+            </div>
+
+            <div class="metric-cluster">
+              <article class="metric metric--primary">
+                <strong>1,183</strong>
+                <span>款生成式 AI 服务完成备案或登记</span>
+                <small>截至 2025 年底</small>
+              </article>
+              <article class="metric">
+                <strong>6.02<em>亿</em></strong>
+                <span>生成式 AI 用户规模</span>
+                <small>中国互联网用户调查口径</small>
+              </article>
+              <article class="metric">
+                <strong>42.8<em>%</em></strong>
+                <span>生成式 AI 普及率</span>
+                <small>技术已进入广泛应用阶段</small>
+              </article>
+            </div>
+
+            <div class="trend-line" aria-hidden="true"><span></span></div>
+          </section>
+
+          <div class="convergence" aria-hidden="true">
+            <span class="convergence__line convergence__line--left"></span>
+            <div class="convergence__core">
+              <small>CONVERGENCE</small>
+              <strong>?</strong>
+            </div>
+            <span class="convergence__line convergence__line--right"></span>
+            <p>技术扩散能否转化为出口增长？</p>
+          </div>
+
+          <section class="trend-column trend-column--trade">
+            <div class="trend-column__head">
+              <span class="trend-column__index">B</span>
+              <div>
+                <small>TRADE TRANSFORMATION</small>
+                <h3>数字贸易成为新动能</h3>
+              </div>
+            </div>
+
+            <div class="metric-cluster">
+              <article class="metric metric--primary">
+                <strong>7.13<em>万亿美元</em></strong>
+                <span>全球数字贸易额</span>
+                <small>2023 年</small>
+              </article>
+              <article class="metric">
+                <strong>22.5<em>%</em></strong>
+                <span>占全球贸易总额比重</span>
+                <small>全球数字贸易发展报告口径</small>
+              </article>
+              <article class="metric">
+                <strong>15.1<em>%</em></strong>
+                <span>数字产品出口占中国总出口比重</span>
+                <small>2025 年，论文的数字产品口径</small>
+              </article>
+            </div>
+
+            <div class="trend-line" aria-hidden="true"><span></span></div>
+          </section>
+        </div>
+
+        <section class="gap-stage" aria-label="文献缺口与论文贡献">
+          <article class="gap-column gap-column--known">
+            <p class="gap-column__eyebrow">01 · 已有研究</p>
+            <h3>技术进步会改变贸易</h3>
+            <p>工业机器人和传统人工智能可以提高生产率、降低成本，并促进出口扩张与产品升级。</p>
+            <div class="topic-row">
+              <span>工业机器人</span><span>生产率</span><span>出口表现</span>
+            </div>
+          </article>
+
+          <article class="gap-column gap-column--missing">
+            <p class="gap-column__eyebrow">02 · 尚未回答</p>
+            <h3>生成式 AI 的独特能力如何进入贸易环节？</h3>
+            <p>既有生成式 AI 研究主要关注劳动力市场与创新，对跨境匹配、产品创造和质量提升仍缺少系统证据。</p>
+            <div class="gap-question" aria-hidden="true"></div>
+          </article>
+
+          <article class="gap-column gap-column--paper">
+            <p class="gap-column__eyebrow">03 · 本文推进</p>
+            <h3>从宏观与微观两端建立证据链</h3>
+            <div class="contribution-list">
+              <span><b>视角</b> 生成式 AI × 数字产品出口</span>
+              <span><b>机制</b> 匹配、种类与质量</span>
+              <span><b>测量</b> 备案数据与 BERT 识别</span>
+            </div>
+          </article>
+        </section>
+
+        <footer class="motivation-footer">
+          <span>资料口径：论文引言及其所引统计资料</span>
+          <div class="page-count" aria-label="第 3 页，共 12 页">
+            <span>03</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--mechanism mechanism-slide"
+        data-slide="3"
+        data-mechanism-step="1"
+        aria-labelledby="mechanism-title"
+      >
+        <div class="mechanism-grid" aria-hidden="true"></div>
+
+        <header class="mechanism-header">
+          <div>
+            <p class="section-kicker">THEORETICAL MECHANISMS · 理论机制</p>
+            <h2 id="mechanism-title">生成式 AI 如何进入数字产品出口链条？</h2>
+          </div>
+          <p class="mechanism-header__lead">
+            作者将生成式 AI 的三类技术能力，分别对应到跨境交易、产品创造与质量升级三个环节。
+          </p>
+        </header>
+
+        <div class="logic-labels" aria-hidden="true">
+          <span>技术能力</span>
+          <span>企业行为变化</span>
+          <span>作用环节</span>
+          <span>理论结果与可检验预测</span>
+        </div>
+
+        <div class="mechanism-lanes" aria-label="三条理论机制">
+          <button class="mechanism-lane is-current" type="button" data-mechanism-target="1">
+            <span class="lane-id">
+              <small>H1</small>
+              <strong>01</strong>
+            </span>
+
+            <span class="lane-capability">
+              <span class="capability-visual capability-visual--dialogue" aria-hidden="true">
+                <i>中</i><i>EN</i><i>DE</i>
+              </span>
+              <span class="lane-title">交互式能力</span>
+              <span class="lane-subtitle">理解、生成并持续回应用户信息</span>
+            </span>
+
+            <span class="lane-actions">
+              <span>多语种实时翻译</span>
+              <span>智能客服与数字人直播</span>
+              <span>识别海外客户真实偏好</span>
+            </span>
+
+            <span class="lane-link">
+              <b>降低</b> 语言与文化障碍<br />
+              <b>提高</b> 响应速度与沟通质量
+            </span>
+
+            <span class="lane-outcome">
+              <strong>跨境搜寻匹配效率 ↑</strong>
+              <span class="prediction-list">
+                <span>体验品效应更强</span>
+                <span>文化距离远的市场效应更强</span>
+              </span>
+            </span>
+          </button>
+
+          <button class="mechanism-lane" type="button" data-mechanism-target="2">
+            <span class="lane-id">
+              <small>H2</small>
+              <strong>02</strong>
+            </span>
+
+            <span class="lane-capability">
+              <span class="capability-visual capability-visual--products" aria-hidden="true">
+                <i>A</i><i>B</i><i>C</i><i>D</i>
+              </span>
+              <span class="lane-title">生成式能力</span>
+              <span class="lane-subtitle">生成新的设计方案、内容与产品组合</span>
+            </span>
+
+            <span class="lane-actions">
+              <span>多样化产品设计</span>
+              <span>柔性生产与按需定制</span>
+              <span>降低小批量生产成本</span>
+            </span>
+
+            <span class="lane-link">
+              <b>扩大</b> 可行产品集合<br />
+              <b>响应</b> 差异化市场需求
+            </span>
+
+            <span class="lane-outcome">
+              <strong>出口产品种类 ↑</strong>
+              <span class="prediction-list">
+                <span>定制化能力增强</span>
+                <span>小众产品效应强于主流产品</span>
+              </span>
+            </span>
+          </button>
+
+          <button class="mechanism-lane" type="button" data-mechanism-target="3">
+            <span class="lane-id">
+              <small>H3</small>
+              <strong>03</strong>
+            </span>
+
+            <span class="lane-capability">
+              <span class="capability-visual capability-visual--quality" aria-hidden="true">
+                <i></i><i></i><i></i><i></i>
+              </span>
+              <span class="lane-title">“通用”式能力</span>
+              <span class="lane-subtitle">跨任务学习、推理与人机协同</span>
+            </span>
+
+            <span class="lane-actions">
+              <span>辅助研发与产品设计</span>
+              <span>加快知识重组和问题解决</span>
+              <span>优化生产及产品迭代</span>
+            </span>
+
+            <span class="lane-link">
+              <b>改善</b> 研发设计效率<br />
+              <b>增强</b> 产品技术含量
+            </span>
+
+            <span class="lane-outcome">
+              <strong>出口产品质量 ↑</strong>
+              <span class="prediction-list">
+                <span>技术复杂度提高</span>
+                <span>出口产品价格提高</span>
+              </span>
+            </span>
+          </button>
+        </div>
+
+        <footer class="mechanism-footer">
+          <div class="hypothesis-note">
+            <span>READING NOTE</span>
+            <strong>本页呈现理论假说；是否得到数据支持，将在机制检验页判断。</strong>
+          </div>
+
+          <div class="mechanism-controls" aria-label="页面操作提示">
+            <span><kbd>↑</kbd><kbd>↓</kbd> 切换机制</span>
+          </div>
+
+          <div class="page-count" aria-label="第 4 页，共 12 页">
+            <span>04</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--data data-slide"
+        data-slide="4"
+        data-data-step="1"
+        aria-labelledby="data-title"
+      >
+        <div class="data-grid" aria-hidden="true"></div>
+
+        <header class="data-header">
+          <div>
+            <p class="section-kicker">DATA ARCHITECTURE · 数据与变量</p>
+            <h2 id="data-title">原始数据如何被转化为可回归的证据？</h2>
+          </div>
+          <p class="data-header__lead">
+            论文并不直接观察每家企业是否使用生成式 AI，而是用地区服务备案数量刻画技术应用水平。
+          </p>
+        </header>
+
+        <div class="data-columns" aria-hidden="true">
+          <span>数据来源</span>
+          <span>原始信息</span>
+          <span>处理与匹配</span>
+          <span>进入模型的变量</span>
+        </div>
+
+        <div class="data-pipeline" aria-label="论文数据处理流程">
+          <article class="data-stream data-stream--exposure">
+            <div class="stream-index">
+              <small>EXPOSURE</small>
+              <strong>01</strong>
+            </div>
+            <div class="stream-source">
+              <span class="source-mark">CAC</span>
+              <strong>国家及地方网信办</strong>
+              <small>生成式 AI 服务备案与登记信息</small>
+            </div>
+            <div class="stream-raw">
+              <strong>服务名称 · 企业 · 所在地</strong>
+              <span>2024 年 4、8、11 月版<br />2025 年 1、3、6 月版</span>
+            </div>
+            <div class="stream-process">
+              <span class="process-arrow" aria-hidden="true">→</span>
+              <strong>按企业所在地与季度加总</strong>
+              <span>将备案、登记数量转为地区累计值</span>
+            </div>
+            <div class="stream-output">
+              <code>GenAI<sub>it</sub></code>
+              <strong>地区累计备案数量</strong>
+              <span>核心解释变量</span>
+            </div>
+          </article>
+
+          <article class="data-stream data-stream--outcome">
+            <div class="stream-index">
+              <small>OUTCOME</small>
+              <strong>02</strong>
+            </div>
+            <div class="stream-source">
+              <span class="source-mark">HS8</span>
+              <strong>海关统计查询平台</strong>
+              <small>地区—月份—HS8 产品出口</small>
+            </div>
+            <div class="stream-raw">
+              <strong>产品编码 · 名称 · 出口额</strong>
+              <span>先获得广义数字产品候选集合</span>
+            </div>
+            <div class="stream-process">
+              <span class="process-arrow" aria-hidden="true">→</span>
+              <strong>BERT 识别后按季度加总</strong>
+              <span>基准文本相似度阈值为 60%</span>
+            </div>
+            <div class="stream-output">
+              <code>ln Export<sub>ipt</sub></code>
+              <strong>数字产品出口额对数</strong>
+              <span>核心被解释变量</span>
+            </div>
+          </article>
+
+          <article class="data-stream data-stream--controls">
+            <div class="stream-index">
+              <small>CONTROLS</small>
+              <strong>03</strong>
+            </div>
+            <div class="stream-source">
+              <span class="source-mark">REG</span>
+              <strong>地区统计与政策资料</strong>
+              <small>统计年鉴、知识产权局、百度指数等</small>
+            </div>
+            <div class="stream-raw">
+              <strong>经济 · 技术 · 基础设施</strong>
+              <span>AI 搜索、AI 专利与相关试验区</span>
+            </div>
+            <div class="stream-process">
+              <span class="process-arrow" aria-hidden="true">→</span>
+              <strong>统一至地区—季度口径</strong>
+              <span>控制可能同时影响 AI 与出口的因素</span>
+            </div>
+            <div class="stream-output">
+              <code>Controls<sub>it</sub></code>
+              <strong>地区控制变量组</strong>
+              <span>减少遗漏变量偏误</span>
+            </div>
+          </article>
+
+          <article class="data-stream data-stream--micro">
+            <div class="stream-index">
+              <small>MICRO CHECK</small>
+              <strong>04</strong>
+            </div>
+            <div class="stream-source">
+              <span class="source-mark">B/L</span>
+              <strong>S&amp;P Global Panjiva</strong>
+              <small>全球港口、海关与物流公司的提单</small>
+            </div>
+            <div class="stream-raw">
+              <strong>企业 · 产品 · 发货记录</strong>
+              <span>筛选 2020—2024 年中国出口企业</span>
+            </div>
+            <div class="stream-process">
+              <span class="process-arrow" aria-hidden="true">→</span>
+              <strong>匹配城市备案与企业 AI 能力</strong>
+              <span>招聘信息和 AI 专利用于补充测量</span>
+            </div>
+            <div class="stream-output">
+              <code>F_Export<sub>cft</sub></code>
+              <strong>企业数字产品出口</strong>
+              <span>微观层面的结论复核</span>
+            </div>
+          </article>
+        </div>
+
+        <section class="sample-window" aria-label="样本窗口与数据维度">
+          <div class="sample-window__intro">
+            <span>SAMPLE WINDOW</span>
+            <strong>宏观基准样本</strong>
+            <small>地区 i × HS8 产品 p × 季度 t</small>
+          </div>
+
+          <div class="sample-timeline">
+            <div class="sample-timeline__rail" aria-hidden="true">
+              <span class="sample-timeline__pre"></span>
+              <span class="sample-timeline__post"></span>
+              <i></i>
+            </div>
+            <div class="sample-timeline__labels">
+              <span><b>2021Q1</b><small>样本起点</small></span>
+              <span><b>2023Q3</b><small>首个服务于 8 月 31 日备案</small></span>
+              <span><b>2025Q2</b><small>样本终点 · 共 18 期</small></span>
+            </div>
+          </div>
+
+          <div class="sample-size">
+            <span>BASELINE N</span>
+            <strong>125,537</strong>
+            <small>地区—产品—季度观测值</small>
+          </div>
+        </section>
+
+        <footer class="data-footer">
+          <span>备案数量是地区生成式 AI 应用水平的代理变量，并非企业实际使用量的直接观测。</span>
+          <span class="reveal-controls"><kbd>←</kbd><kbd>→</kbd> 逐条显示</span>
+          <div class="page-count" aria-label="第 5 页，共 12 页">
+            <span>05</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--classification classification-slide"
+        data-slide="5"
+        data-classification-step="1"
+        aria-labelledby="classification-title"
+      >
+        <div class="classification-grid" aria-hidden="true"></div>
+
+        <header class="classification-header">
+          <div>
+            <p class="section-kicker">MEASUREMENT DESIGN · 数字产品识别</p>
+            <h2 id="classification-title">“数字产品”不是现成变量：作者如何识别它？</h2>
+          </div>
+          <p class="classification-header__lead">
+            先用产业分类限定边界，再用 BERT 进行语义筛选，降低单纯依赖人工关键词带来的口径偏差。
+          </p>
+        </header>
+
+        <section class="classification-flow" aria-label="数字产品五步识别流程">
+          <div class="classification-spine" aria-hidden="true"><span></span></div>
+
+          <article class="class-step class-step--1">
+            <div class="class-step__number">01</div>
+            <p class="class-step__eyebrow">DEFINE</p>
+            <h3>界定产业边界</h3>
+            <p>选取《数字经济及其核心产业统计分类（2021）》中的“01 数字产品制造业”。</p>
+            <div class="industry-token">
+              <span>01</span>
+              <strong>数字产品制造业</strong>
+            </div>
+          </article>
+
+          <article class="class-step class-step--2">
+            <div class="class-step__number">02</div>
+            <p class="class-step__eyebrow">MAP</p>
+            <h3>完成编码映射</h3>
+            <p>将国民经济行业分类逐级映射到国际行业和海关产品编码。</p>
+            <div class="code-chain" aria-label="编码映射链">
+              <span>GB/T 2017</span><i>→</i><span>ISIC</span><i>→</i><span>HS6</span><i>→</i><span>HS8</span>
+            </div>
+          </article>
+
+          <article class="class-step class-step--3">
+            <div class="class-step__number">03</div>
+            <p class="class-step__eyebrow">BUILD</p>
+            <h3>构建数字产品文本库</h3>
+            <p>清理产业说明，删除停用词及与产品核心属性无关的修饰语，保留关键名词和形容词。</p>
+            <div class="text-library" aria-hidden="true">
+              <span>核心属性</span><span>技术内涵</span><span>产品功能</span>
+              <del>加工</del><del>制造</del>
+            </div>
+          </article>
+
+          <article class="class-step class-step--4">
+            <div class="class-step__number">04</div>
+            <p class="class-step__eyebrow">ENCODE</p>
+            <h3>BERT 计算语义相似度</h3>
+            <p>比较每个广义数字产品的名称、描述与数字产品文本库之间的语义距离。</p>
+            <div class="bert-core" aria-hidden="true">
+              <span>BERT</span>
+              <strong>wwm-ext</strong>
+              <i></i><i></i><i></i>
+            </div>
+          </article>
+
+          <article class="class-step class-step--5">
+            <div class="class-step__number">05</div>
+            <p class="class-step__eyebrow">CLASSIFY</p>
+            <h3>依据阈值分类</h3>
+            <p>文本相似度达到基准阈值时，认定为数字产品；否则从候选集合中剔除。</p>
+            <div class="decision-branch">
+              <span><b>≥ 60%</b> 数字产品</span>
+              <span><b>&lt; 60%</b> 非数字产品</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="similarity-lab" aria-label="相似度阈值示意">
+          <div class="similarity-lab__intro">
+            <span>SEMANTIC FILTER</span>
+            <strong>语义筛选标尺</strong>
+            <small>流程示意，不代表某一具体产品的实际得分</small>
+          </div>
+
+          <div class="similarity-scale">
+            <div class="similarity-scale__labels">
+              <span>0%</span><span>低相似度</span><span>高相似度</span><span>100%</span>
+            </div>
+            <div class="similarity-scale__rail">
+              <span class="similarity-scale__excluded"></span>
+              <span class="similarity-scale__included"></span>
+              <i class="similarity-scale__threshold"></i>
+              <b class="similarity-scale__marker similarity-scale__marker--low">候选产品</b>
+              <b class="similarity-scale__marker similarity-scale__marker--high">数字产品</b>
+            </div>
+            <div class="similarity-scale__threshold-label">
+              <strong>60%</strong>
+              <span>基准识别阈值</span>
+            </div>
+          </div>
+
+          <div class="classification-result">
+            <span>OUTPUT</span>
+            <strong>地区—季度—HS8 数字产品出口</strong>
+            <small>与海关出口额匹配并按季度汇总</small>
+          </div>
+        </section>
+
+        <section class="definition-checks" aria-label="数字产品口径稳健性检验">
+          <div class="definition-checks__title">
+            <span>ROBUSTNESS</span>
+            <strong>作者如何检查识别口径？</strong>
+          </div>
+          <div class="threshold-set">
+            <span class="is-baseline"><b>60%</b> 基准</span>
+            <span><b>65%</b></span>
+            <span><b>70%</b></span>
+            <span><b>75%</b></span>
+          </div>
+          <div class="alternative-definitions">
+            <span><b>替代口径 A</b> 联合国 ICT 产品</span>
+            <span><b>替代口径 B</b> “01 数字产品制造业”对应产品</span>
+          </div>
+        </section>
+
+        <footer class="classification-footer">
+          <span>方法上的关键：产业分类负责“缩小边界”，BERT 负责“语义筛选”。</span>
+          <span class="reveal-controls"><kbd>←</kbd><kbd>→</kbd> 逐条显示</span>
+          <div class="page-count" aria-label="第 6 页，共 12 页">
+            <span>06</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--model model-slide"
+        data-slide="6"
+        data-model-step="1"
+        aria-labelledby="model-title"
+      >
+        <div class="model-grid" aria-hidden="true"></div>
+
+        <header class="model-header">
+          <div>
+            <p class="section-kicker">EMPIRICAL STRATEGY · 基准模型</p>
+            <h2 id="model-title">作者如何从相关性中识别生成式 AI 的净效应？</h2>
+          </div>
+          <p class="model-header__lead">
+            基准回归同时利用地区、产品和季度三个维度的变化，并用多维固定效应排除系统性差异。
+          </p>
+        </header>
+
+        <section class="equation-stage" aria-label="基准回归方程">
+          <div class="equation-stage__label">
+            <span>BASELINE SPECIFICATION</span>
+            <strong>地区 i × 产品 p × 季度 t</strong>
+          </div>
+
+          <div class="equation" aria-label="Export 等于常数项加生成式人工智能、控制变量、固定效应与误差项">
+            <span class="equation__term equation__term--outcome is-revealed" data-model-term="1">
+              Export<sub>ipt</sub>
+              <small>出口结果</small>
+            </span>
+            <b>=</b>
+            <span class="equation__constant">α<sub>0</sub></span>
+            <b>+</b>
+            <span class="equation__term equation__term--treatment" data-model-term="2">
+              β<sub>1</sub> GenAI<sub>it</sub>
+              <small>目标系数</small>
+            </span>
+            <b>+</b>
+            <span class="equation__term equation__term--controls" data-model-term="3">
+              β<sub>2</sub> Controls<sub>it</sub>
+              <small>可观测控制</small>
+            </span>
+            <b>+</b>
+            <span class="equation__term equation__term--fixed" data-model-term="4">
+              <span class="equation__math">ν<sub>i</sub> + ν<sub>p</sub> + ν<sub>t</sub></span>
+              <small>多维固定效应</small>
+            </span>
+            <b>+</b>
+            <span class="equation__term equation__term--error" data-model-term="5">
+              ε<sub>ipt</sub>
+              <small>剩余扰动</small>
+            </span>
+          </div>
+
+          <div class="equation-target" aria-hidden="true">
+            <span>本文关心</span>
+            <strong>β<sub>1</sub></strong>
+          </div>
+        </section>
+
+        <section class="model-anatomy" aria-label="回归方程逐项解释">
+          <article class="model-card is-revealed" data-model-card="1">
+            <span class="model-card__number">01</span>
+            <p class="model-card__eyebrow">OUTCOME</p>
+            <h3>被解释变量</h3>
+            <code>Export<sub>ipt</sub></code>
+            <p>地区 i 在季度 t 对 HS8 数字产品 p 的出口额对数。</p>
+            <small>回答：出口表现发生了什么变化？</small>
+          </article>
+
+          <article class="model-card" data-model-card="2">
+            <span class="model-card__number">02</span>
+            <p class="model-card__eyebrow">TREATMENT</p>
+            <h3>核心解释变量</h3>
+            <code>GenAI<sub>it</sub></code>
+            <p>地区 i 截至季度 t 累计备案、登记的生成式 AI 服务数量。</p>
+            <small>β₁ 衡量每新增一个备案服务的边际影响。</small>
+          </article>
+
+          <article class="model-card" data-model-card="3">
+            <span class="model-card__number">03</span>
+            <p class="model-card__eyebrow">OBSERVABLES</p>
+            <h3>可观测控制</h3>
+            <code>Controls<sub>it</sub></code>
+            <p>AI 搜索、AI 专利、政策试验区及地区经济、基础设施等变量。</p>
+            <small>降低可观测混杂因素造成的偏误。</small>
+          </article>
+
+          <article class="model-card" data-model-card="4">
+            <span class="model-card__number">04</span>
+            <p class="model-card__eyebrow">FIXED EFFECTS</p>
+            <h3>不可观测的系统差异</h3>
+            <code>ν<sub>i</sub> · ν<sub>p</sub> · ν<sub>t</sub></code>
+            <p>控制地区长期特征、产品固有属性和共同季度冲击。</p>
+            <small>更严格设定还加入时间 × 产品固定效应。</small>
+          </article>
+
+          <article class="model-card model-card--risk" data-model-card="5">
+            <span class="model-card__number">05</span>
+            <p class="model-card__eyebrow">REMAINING RISK</p>
+            <h3>仍不能完全排除</h3>
+            <code>Export → GenAI ?</code>
+            <p>出口表现较好的地区，也可能更容易研发、备案和使用生成式 AI。</p>
+            <small>因此还需要工具变量与稳健性检验。</small>
+          </article>
+        </section>
+
+        <section class="identification-audit" aria-label="固定效应控制内容">
+          <div class="identification-audit__title">
+            <span>IDENTIFICATION AUDIT</span>
+            <strong>基准模型已经控制什么？</strong>
+          </div>
+          <div class="audit-item">
+            <span>ν<sub>i</sub></span>
+            <strong>地区固定效应</strong>
+            <small>发展基础、区位等长期差异</small>
+          </div>
+          <div class="audit-item">
+            <span>ν<sub>p</sub></span>
+            <strong>产品固定效应</strong>
+            <small>产品固有需求和技术属性</small>
+          </div>
+          <div class="audit-item">
+            <span>ν<sub>t</sub></span>
+            <strong>时间固定效应</strong>
+            <small>汇率、周期等共同季度冲击</small>
+          </div>
+          <div class="audit-item audit-item--cluster">
+            <span>SE</span>
+            <strong>聚类稳健标准误</strong>
+            <small>使用多种聚类口径复核显著性</small>
+          </div>
+        </section>
+
+        <footer class="model-footer">
+          <span>识别边界：严格的固定效应能够缓解遗漏变量问题，但不能自动消除反向因果。</span>
+          <span class="reveal-controls"><kbd>←</kbd><kbd>→</kbd> 逐项解释</span>
+          <div class="page-count" aria-label="第 7 页，共 12 页">
+            <span>07</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--results results-slide"
+        data-slide="7"
+        data-results-step="1"
+        aria-labelledby="results-title"
+      >
+        <div class="results-grid" aria-hidden="true"></div>
+
+        <header class="results-header">
+          <div>
+            <p class="section-kicker">BASELINE RESULTS · 基准结果</p>
+            <h2 id="results-title">核心系数在不同模型设定下保持稳定</h2>
+          </div>
+          <p class="results-header__lead">
+            表 1 的四种设定均得到正向且显著的估计结果，系数集中在 0.003—0.004。
+          </p>
+        </header>
+
+        <div class="results-main">
+          <section class="coefficient-panel" aria-label="四种模型的系数比较">
+            <div class="coefficient-panel__head">
+              <div>
+                <span>COEFFICIENT STABILITY</span>
+                <strong>生成式 AI 水平的估计系数</strong>
+              </div>
+              <div class="coefficient-legend">
+                <span><i></i> 点估计</span>
+                <span><b></b> 根据报告标准误绘制的约 95% 区间</span>
+              </div>
+            </div>
+
+            <div class="coefficient-axis" aria-hidden="true">
+              <span>0.000</span><span>0.002</span><span>0.004</span><span>0.006</span>
+              <i class="coefficient-axis__zero"></i>
+              <i class="coefficient-axis__grid coefficient-axis__grid--1"></i>
+              <i class="coefficient-axis__grid coefficient-axis__grid--2"></i>
+              <i class="coefficient-axis__grid coefficient-axis__grid--3"></i>
+            </div>
+
+            <div class="coefficient-rows">
+              <article class="coefficient-row is-revealed" data-results-row="1">
+                <div class="coefficient-row__label">
+                  <span>M1</span>
+                  <strong>基础控制</strong>
+                  <small>时间、地区、产品固定效应</small>
+                </div>
+                <div class="coefficient-row__plot">
+                  <span class="ci" style="--ci-left: 33.3%; --ci-width: 66.7%;"></span>
+                  <i class="point" style="--point-left: 66.7%;"></i>
+                </div>
+                <div class="coefficient-row__value"><strong>0.004***</strong><span>(0.001)</span></div>
+              </article>
+
+              <article class="coefficient-row" data-results-row="2">
+                <div class="coefficient-row__label">
+                  <span>M2</span>
+                  <strong>加入政策控制</strong>
+                  <small>论文选定的基准结果</small>
+                </div>
+                <div class="coefficient-row__plot">
+                  <span class="ci" style="--ci-left: 33.3%; --ci-width: 66.7%;"></span>
+                  <i class="point" style="--point-left: 66.7%;"></i>
+                </div>
+                <div class="coefficient-row__value"><strong>0.004**</strong><span>(0.001)</span></div>
+              </article>
+
+              <article class="coefficient-row" data-results-row="3">
+                <div class="coefficient-row__label">
+                  <span>M3</span>
+                  <strong>时间 × 产品固定效应</strong>
+                  <small>排除产品面临的共同时间冲击</small>
+                </div>
+                <div class="coefficient-row__plot">
+                  <span class="ci" style="--ci-left: 16.7%; --ci-width: 66.7%;"></span>
+                  <i class="point" style="--point-left: 50%;"></i>
+                </div>
+                <div class="coefficient-row__value"><strong>0.003**</strong><span>(0.001)</span></div>
+              </article>
+
+              <article class="coefficient-row" data-results-row="4">
+                <div class="coefficient-row__label">
+                  <span>M4</span>
+                  <strong>更换聚类口径</strong>
+                  <small>地区与时间层面的聚类标准误</small>
+                </div>
+                <div class="coefficient-row__plot">
+                  <span class="ci" style="--ci-left: 33.3%; --ci-width: 66.7%;"></span>
+                  <i class="point" style="--point-left: 66.7%;"></i>
+                </div>
+                <div class="coefficient-row__value"><strong>0.004***</strong><span>(0.001)</span></div>
+              </article>
+            </div>
+          </section>
+
+          <aside class="effect-panel" aria-label="基准系数的经济含义">
+            <div class="effect-panel__eyebrow">ECONOMIC INTERPRETATION</div>
+            <div class="effect-panel__formula">
+              <span>β̂<sub>1</sub></span>
+              <strong>0.004</strong>
+            </div>
+            <div class="effect-panel__conversion">
+              <span>对数模型中的小系数</span>
+              <i>≈</i>
+              <strong>+0.4%</strong>
+            </div>
+            <p>在控制其他条件后，地区每新增一个备案的生成式 AI 服务，其某一 HS8 数字产品出口额平均增加约 0.4%。</p>
+            <div class="effect-panel__stats">
+              <span><small>BASELINE N</small><strong>125,537</strong></span>
+              <span><small>R²</small><strong>0.364</strong></span>
+            </div>
+          </aside>
+        </div>
+
+        <section class="specification-ledger" aria-label="基准回归设定比较">
+          <div class="specification-ledger__title">
+            <span>TABLE 1</span>
+            <strong>不同列改变了什么？</strong>
+          </div>
+          <div class="spec-column is-revealed" data-results-spec="1">
+            <span>(1)</span><strong>部分控制变量</strong><small>产品 × 地区聚类</small>
+          </div>
+          <div class="spec-column" data-results-spec="2">
+            <span>(2)</span><strong>增加两类政策控制</strong><small>作为基准结果解释</small>
+          </div>
+          <div class="spec-column" data-results-spec="3">
+            <span>(3)</span><strong>增加时间 × 产品固定效应</strong><small>N = 125,521</small>
+          </div>
+          <div class="spec-column" data-results-spec="4">
+            <span>(4)</span><strong>更换标准误聚类层级</strong><small>地区 × 时间聚类</small>
+          </div>
+        </section>
+
+        <footer class="results-footer">
+          <span>解释单位：地区—HS8 产品—季度的平均出口变化，不是单个备案企业自身出口增加 0.4%。</span>
+          <span class="reveal-controls"><kbd>←</kbd><kbd>→</kbd> 逐列显示</span>
+          <div class="page-count" aria-label="第 8 页，共 12 页">
+            <span>08</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--robustness robustness-slide"
+        data-slide="8"
+        data-robustness-step="1"
+        aria-labelledby="robustness-title"
+      >
+        <div class="robustness-grid" aria-hidden="true"></div>
+
+        <header class="robustness-header">
+          <div>
+            <p class="section-kicker">IDENTIFICATION CHECKS · 内生性与稳健性</p>
+            <h2 id="robustness-title">核心结果可靠吗？作者构建了怎样的证据链？</h2>
+          </div>
+          <p class="robustness-header__lead">
+            基准回归之后，论文继续处理反向因果、随机相关、产品口径和技术扩散时滞等问题。
+          </p>
+        </header>
+
+        <div class="robustness-layout">
+          <section class="iv-panel" aria-label="工具变量设计">
+            <div class="iv-panel__head">
+              <div>
+                <span>INSTRUMENTAL VARIABLES</span>
+                <strong>利用历史基础设施与全球技术周期的交互</strong>
+              </div>
+              <p>历史禀赋提供地区差异，美国生成式 AI 服务数量提供时间变化。</p>
+            </div>
+
+            <article class="instrument-card is-revealed" data-robustness-block="1">
+              <div class="instrument-card__id"><small>IV</small><strong>Ⅰ</strong></div>
+              <div class="instrument-card__formula">
+                <span>地区 1984 年用电量</span>
+                <b>×</b>
+                <span>美国当期生成式 AI 服务数量</span>
+              </div>
+              <div class="instrument-card__logic">
+                <span><b>相关性</b> 电力基础有利于承载算力设施</span>
+                <span><b>外生性要求</b> 不通过其他长期路径直接影响当前出口</span>
+              </div>
+            </article>
+
+            <article class="instrument-card" data-robustness-block="2">
+              <div class="instrument-card__id"><small>IV</small><strong>Ⅱ</strong></div>
+              <div class="instrument-card__formula">
+                <span>地区 1984 年邮电局数量</span>
+                <b>×</b>
+                <span>美国当期生成式 AI 服务数量</span>
+              </div>
+              <div class="instrument-card__logic">
+                <span><b>相关性</b> 早期通信节点影响后续数字基础设施</span>
+                <span><b>外生性要求</b> 不独立推动当前数字产品出口</span>
+              </div>
+            </article>
+
+            <section class="iv-diagnostics" data-robustness-block="3" aria-label="工具变量诊断结果">
+              <div class="iv-diagnostics__title">
+                <span>TABLE 2</span>
+                <strong>识别强度与第二阶段结果</strong>
+              </div>
+              <div class="iv-result iv-result--one">
+                <span>IV Ⅰ</span>
+                <strong>β̂ = 0.005***</strong>
+                <small>SE = 0.002</small>
+              </div>
+              <div class="iv-result iv-result--two">
+                <span>IV Ⅱ</span>
+                <strong>β̂ = 0.005***</strong>
+                <small>SE = 0.002</small>
+              </div>
+              <div class="diagnostic-stat">
+                <span>KP rk LM</span>
+                <strong>54.531 / 43.688</strong>
+                <small>p = 0.000</small>
+              </div>
+              <div class="diagnostic-stat diagnostic-stat--f">
+                <span>KP rk Wald F</span>
+                <strong>92.237 / 77.750</strong>
+                <small>均高于 16.38 临界值</small>
+              </div>
+            </section>
+          </section>
+
+          <section class="robustness-panel" aria-label="稳健性检验证据清单">
+            <div class="robustness-panel__head">
+              <span>ROBUSTNESS MATRIX</span>
+              <strong>换一种检验方式，结论是否仍然成立？</strong>
+            </div>
+
+            <article class="robustness-group" data-robustness-block="4">
+              <div class="robustness-group__number">01</div>
+              <div class="robustness-group__body">
+                <span>随机性与测量门槛</span>
+                <strong>安慰剂检验 + 更高识别阈值</strong>
+                <p>随机设置“伪处理组”并重复 500 次；系数均值接近零，多数不显著。将 BERT 阈值提高至 65%、70%、75% 后结论不变。</p>
+              </div>
+              <div class="robustness-group__status">通过</div>
+            </article>
+
+            <article class="robustness-group" data-robustness-block="5">
+              <div class="robustness-group__number">02</div>
+              <div class="robustness-group__body">
+                <span>替代口径与比较组</span>
+                <strong>ICT 产品定义 + 三重差分</strong>
+                <p>使用联合国 ICT 产品和统计分类对应产品替换数字产品定义；DDD 结果显示，相比非数字产品，数字产品受到的促进作用更大。</p>
+              </div>
+              <div class="robustness-group__status">一致</div>
+            </article>
+
+            <article class="robustness-group" data-robustness-block="6">
+              <div class="robustness-group__number">03</div>
+              <div class="robustness-group__body">
+                <span>技术成熟度与外部验证</span>
+                <strong>阶段效应 + 滞后效应 + 企业数据</strong>
+                <p>第一技术阶段不显著，第二、第三阶段开始显现；滞后一期、两期仍显著；Panjiva 企业层面的检验方向一致。</p>
+              </div>
+              <div class="robustness-group__status">一致</div>
+            </article>
+          </section>
+        </div>
+
+        <section class="assumption-bar" aria-label="工具变量解释边界">
+          <div>
+            <span>WHAT THE TESTS SHOW</span>
+            <strong>工具变量与地区生成式 AI 水平具有较强相关性，未出现弱工具变量问题。</strong>
+          </div>
+          <i aria-hidden="true">≠</i>
+          <div class="assumption-bar__caution">
+            <span>WHAT REMAINS AN ASSUMPTION</span>
+            <strong>历史电力、邮电基础不会通过其他长期发展路径直接影响当前出口。</strong>
+          </div>
+        </section>
+
+        <footer class="robustness-footer">
+          <span>证据强度来自多种方法得到方向一致的结果，而不是依赖某一项单独检验。</span>
+          <span class="reveal-controls"><kbd>←</kbd><kbd>→</kbd> 逐项显示</span>
+          <div class="page-count" aria-label="第 9 页，共 12 页">
+            <span>09</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--evidence evidence-slide"
+        data-slide="9"
+        data-evidence-step="1"
+        aria-labelledby="evidence-title"
+      >
+        <div class="evidence-grid" aria-hidden="true"></div>
+
+        <header class="evidence-header">
+          <div>
+            <p class="section-kicker">MECHANISM EVIDENCE · 机制与异质性</p>
+            <h2 id="evidence-title">三条理论路径是否得到数据支持？</h2>
+          </div>
+          <p class="evidence-header__lead">
+            作者为每条机制寻找可观测结果，并进一步判断哪些技术、产品和地区更容易把 AI 转化为出口增长。
+          </p>
+        </header>
+
+        <div class="evidence-layout">
+          <section class="mechanism-evidence" aria-label="三条机制的经验检验">
+            <div class="mechanism-evidence__head">
+              <div>
+                <span>HYPOTHESES H1—H3</span>
+                <strong>从理论预测到可观测结果</strong>
+              </div>
+              <div class="significance-legend">
+                <span>*** p&lt;0.01</span><span>** p&lt;0.05</span><span>* p&lt;0.10</span><span>n.s. 不显著</span>
+              </div>
+            </div>
+
+            <article class="mechanism-proof mechanism-proof--matching is-revealed" data-evidence-block="1">
+              <div class="mechanism-proof__identity">
+                <span>H1</span>
+                <strong>搜寻匹配效率</strong>
+                <small>交互式能力</small>
+              </div>
+              <div class="proof-metrics">
+                <div class="proof-metric">
+                  <span>客服响应速度</span>
+                  <strong>0.001**</strong>
+                  <small>企业层面</small>
+                </div>
+                <div class="proof-metric">
+                  <span>数字人直播</span>
+                  <strong>0.006**</strong>
+                  <small>企业层面</small>
+                </div>
+                <div class="proof-comparison">
+                  <span>体验品</span><b>0.004**</b>
+                  <i></i>
+                  <span>搜寻品</span><b>0.002 n.s.</b>
+                </div>
+                <div class="proof-comparison">
+                  <span>文化距离远</span><b>0.009***</b>
+                  <i></i>
+                  <span>文化距离近</span><b>0.006***</b>
+                </div>
+              </div>
+              <div class="proof-status"><span>SUPPORTED</span><strong>假说 1</strong></div>
+            </article>
+
+            <article class="mechanism-proof mechanism-proof--variety" data-evidence-block="2">
+              <div class="mechanism-proof__identity">
+                <span>H2</span>
+                <strong>出口产品种类</strong>
+                <small>生成式能力</small>
+              </div>
+              <div class="proof-metrics">
+                <div class="proof-metric">
+                  <span>定制化生产能力</span>
+                  <strong>0.003*</strong>
+                  <small>企业层面</small>
+                </div>
+                <div class="proof-metric">
+                  <span>出口产品种类</span>
+                  <strong>0.838***</strong>
+                  <small>地区层面</small>
+                </div>
+                <div class="proof-comparison proof-comparison--wide">
+                  <span>小众产品</span><b>0.005**</b>
+                  <i></i>
+                  <span>主流产品</span><b>0.002 n.s.</b>
+                </div>
+              </div>
+              <div class="proof-status"><span>SUPPORTED</span><strong>假说 2</strong></div>
+            </article>
+
+            <article class="mechanism-proof mechanism-proof--quality" data-evidence-block="3">
+              <div class="mechanism-proof__identity">
+                <span>H3</span>
+                <strong>出口产品质量</strong>
+                <small>“通用”式能力</small>
+              </div>
+              <div class="proof-metrics proof-metrics--quality">
+                <div class="quality-indicator">
+                  <span>技术复杂度</span>
+                  <div><i style="--quality-width: 82%;"></i></div>
+                  <strong>0.004***</strong>
+                </div>
+                <div class="quality-indicator">
+                  <span>出口产品价格</span>
+                  <div><i style="--quality-width: 58%;"></i></div>
+                  <strong>0.002**</strong>
+                </div>
+              </div>
+              <div class="proof-status"><span>SUPPORTED</span><strong>假说 3</strong></div>
+            </article>
+          </section>
+
+          <aside class="heterogeneity-panel" data-evidence-block="4" aria-label="异质性分析">
+            <div class="heterogeneity-panel__head">
+              <span>WHERE IS THE EFFECT STRONGER?</span>
+              <strong>促进作用并非均质化</strong>
+            </div>
+
+            <section class="heterogeneity-dimension">
+              <div class="heterogeneity-dimension__title"><span>01</span><strong>技术属性</strong></div>
+              <div class="heterogeneity-pairs">
+                <span class="is-strong">行业垂类模型 <b>显著</b></span>
+                <span>通用模型 <b>不显著</b></span>
+                <span class="is-strong">商业应用场景 <b>显著</b></span>
+                <span>其他场景 <b>不显著</b></span>
+                <span class="is-strong">网页 / 云端访问 <b>显著</b></span>
+                <span>本地化部署 <b>不显著</b></span>
+              </div>
+            </section>
+
+            <section class="heterogeneity-dimension">
+              <div class="heterogeneity-dimension__title"><span>02</span><strong>产品属性</strong></div>
+              <div class="heterogeneity-pairs heterogeneity-pairs--products">
+                <span class="is-strong">非标准化产品</span><span>标准化产品</span>
+                <span class="is-strong">交互型产品</span><span>非交互型产品</span>
+              </div>
+            </section>
+
+            <section class="heterogeneity-dimension">
+              <div class="heterogeneity-dimension__title"><span>03</span><strong>地区条件</strong></div>
+              <div class="region-conditions">
+                <span><i></i>电商发展水平较高</span>
+                <span><i></i>综合算力水平较高</span>
+                <span><i></i>人工智能试验区</span>
+              </div>
+            </section>
+          </aside>
+        </div>
+
+        <section class="evidence-bridge" aria-label="理论与证据对应关系">
+          <span>交互式能力</span><i>→</i><strong>匹配效率</strong>
+          <b></b>
+          <span>生成式能力</span><i>→</i><strong>产品种类</strong>
+          <b></b>
+          <span>“通用”式能力</span><i>→</i><strong>产品质量</strong>
+        </section>
+
+        <footer class="evidence-footer">
+          <span>注意：各列使用不同的被解释变量，系数大小不能在机制之间直接比较。</span>
+          <span class="reveal-controls"><kbd>←</kbd><kbd>→</kbd> 逐项显示</span>
+          <div class="page-count" aria-label="第 10 页，共 12 页">
+            <span>10</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--evaluation evaluation-slide"
+        data-slide="10"
+        data-evaluation-step="1"
+        aria-labelledby="evaluation-title"
+      >
+        <div class="evaluation-grid" aria-hidden="true"></div>
+
+        <header class="evaluation-header">
+          <div>
+            <p class="section-kicker">ACADEMIC ASSESSMENT · 学术评价</p>
+            <h2 id="evaluation-title">这篇论文贡献在哪里，结论的边界又在哪里？</h2>
+          </div>
+          <p class="evaluation-header__lead">
+            评价的重点不是否定结果，而是区分“论文证明了什么”与“仍需依赖哪些测量和识别假设”。
+          </p>
+        </header>
+
+        <div class="evaluation-layout">
+          <section class="contribution-panel" aria-label="论文贡献">
+            <div class="contribution-panel__head">
+              <span>WHAT THE PAPER ADDS</span>
+              <strong>三项清晰的边际贡献</strong>
+            </div>
+
+            <article class="contribution-item">
+              <span class="contribution-item__number">01</span>
+              <div>
+                <small>RESEARCH PERSPECTIVE</small>
+                <h3>将生成式 AI 引入国际贸易研究</h3>
+                <p>区别于工业机器人和判别式 AI，直接考察生成式 AI 与数字产品出口之间的关系。</p>
+              </div>
+            </article>
+
+            <article class="contribution-item">
+              <span class="contribution-item__number">02</span>
+              <div>
+                <small>MECHANISM FRAMEWORK</small>
+                <h3>把技术能力映射到贸易环节</h3>
+                <p>以交互式、生成式和“通用”式能力解释匹配、产品范围和质量升级。</p>
+              </div>
+            </article>
+
+            <article class="contribution-item">
+              <span class="contribution-item__number">03</span>
+              <div>
+                <small>MEASUREMENT &amp; EVIDENCE</small>
+                <h3>构造新的数据与测量方案</h3>
+                <p>结合备案数据、BERT 产品识别、地区海关数据与 Panjiva 企业提单，形成宏观—微观证据链。</p>
+              </div>
+            </article>
+          </section>
+
+          <section class="boundary-panel" aria-label="论文的解释边界">
+            <div class="boundary-panel__head">
+              <span>WHERE INTERPRETATION NEEDS CARE</span>
+              <strong>四个值得继续追问的问题</strong>
+            </div>
+
+            <div class="boundary-grid">
+              <article class="boundary-card" data-evaluation-block="2">
+                <span class="boundary-card__tag">MEASURE</span>
+                <span class="boundary-card__number">01</span>
+                <h3>备案数量是否等于真实使用强度？</h3>
+                <p>备案更接近公开服务供给和区域技术生态，无法直接观察出口企业实际调用频率、使用环节和投入规模。</p>
+                <div class="boundary-card__implication">
+                  <b>解释影响</b>
+                  <span>β₁ 可能同时包含直接使用、示范效应和区域外溢。</span>
+                </div>
+              </article>
+
+              <article class="boundary-card" data-evaluation-block="3">
+                <span class="boundary-card__tag">IDENTIFY</span>
+                <span class="boundary-card__number">02</span>
+                <h3>工具变量的排除性是否充分？</h3>
+                <p>1984 年电力和邮电基础可能通过长期产业积累、基础设施和人力资本等路径直接影响当前出口。</p>
+                <div class="boundary-card__implication">
+                  <b>解释影响</b>
+                  <span>强工具变量不等于排除性假设已经被验证。</span>
+                </div>
+              </article>
+
+              <article class="boundary-card" data-evaluation-block="4">
+                <span class="boundary-card__tag">TIME</span>
+                <span class="boundary-card__number">03</span>
+                <h3>后处理时期仍然较短</h3>
+                <p>首个备案发生在 2023Q3，样本止于 2025Q2，可观察到的生成式 AI 扩散窗口不足两年。</p>
+                <div class="boundary-card__implication">
+                  <b>解释影响</b>
+                  <span>长期生产率、组织调整和产品迭代效应仍有待观察。</span>
+                </div>
+              </article>
+
+              <article class="boundary-card" data-evaluation-block="5">
+                <span class="boundary-card__tag">SCOPE</span>
+                <span class="boundary-card__number">04</span>
+                <h3>数字产品不等于全部数字贸易</h3>
+                <p>结果主要覆盖可由海关 HS 编码识别的数字产品，不能直接外推到软件、平台和在线内容等数字服务。</p>
+                <div class="boundary-card__implication">
+                  <b>解释影响</b>
+                  <span>论文标题中的“数字产品”需要按照其较窄的数据口径理解。</span>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <section class="future-agenda" aria-label="后续研究方向">
+          <div>
+            <span>NEXT RESEARCH</span>
+            <strong>如果继续研究，可以补充什么？</strong>
+          </div>
+          <span>企业 API / 采购 / 使用日志</span>
+          <i>→</i>
+          <span>更长的技术扩散窗口</span>
+          <i>→</i>
+          <span>空间外溢与跨地区使用</span>
+          <i>→</i>
+          <span>数字服务贸易数据</span>
+        </section>
+
+        <footer class="evaluation-footer">
+          <span>以上为汇报者基于论文研究设计提出的讨论，不等同于论文作者的自我评价。</span>
+          <span class="reveal-controls"><kbd>←</kbd><kbd>→</kbd> 逐项显示</span>
+          <div class="page-count" aria-label="第 11 页，共 12 页">
+            <span>11</span>
+            <span class="page-count__line"></span>
+            <span>12</span>
+          </div>
+        </footer>
+      </section>
+
+      <section
+        class="slide slide--conclusion conclusion-slide"
+        data-slide="11"
+        data-conclusion-step="1"
+        aria-labelledby="conclusion-title"
+      >
+        <div class="conclusion-grid" aria-hidden="true"></div>
+        <div class="conclusion-orbit" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </div>
+
+        <header class="conclusion-header">
+          <div>
+            <p class="section-kicker">CONCLUSION · 研究结论</p>
+            <h2 id="conclusion-title">生成式 AI 能促进数字产品出口，但这种赋能不会自动发生</h2>
+          </div>
+          <span class="conclusion-header__index">12 / 12</span>
+        </header>
+
+        <section class="answer-stage" aria-label="论文对研究问题的总体回答">
+          <div class="answer-stage__question">生成式 AI 能否转化为数字产品出口增长？</div>
+          <div class="answer-stage__answer is-revealed" data-conclusion-block="1">
+            <span>论文的回答</span>
+            <strong>能</strong>
+            <p>地区每新增一个备案服务，其某一 HS8 数字产品出口额平均增加约 <b>0.4%</b></p>
+          </div>
+        </section>
+
+        <section class="conclusion-paths" aria-label="三层结论">
+          <article class="conclusion-path" data-conclusion-block="2">
+            <span class="conclusion-path__number">01</span>
+            <small>HOW</small>
+            <h3>通过什么渠道？</h3>
+            <div class="conclusion-path__items">
+              <span>跨境搜寻匹配效率</span>
+              <i>→</i>
+              <span>出口产品种类</span>
+              <i>→</i>
+              <span>出口产品质量</span>
+            </div>
+          </article>
+
+          <article class="conclusion-path" data-conclusion-block="3">
+            <span class="conclusion-path__number">02</span>
+            <small>WHEN &amp; WHERE</small>
+            <h3>什么条件下更有效？</h3>
+            <div class="condition-cloud">
+              <span>行业垂类模型</span><span>商业场景</span><span>网页 / 云端访问</span>
+              <span>非标准化产品</span><span>交互型产品</span>
+              <span>高电商基础</span><span>高算力</span><span>AI 试验区</span>
+            </div>
+          </article>
+
+          <article class="conclusion-path conclusion-path--meaning" data-conclusion-block="4">
+            <span class="conclusion-path__number">03</span>
+            <small>SO WHAT</small>
+            <h3>政策含义是什么？</h3>
+            <div class="policy-lines">
+              <span><b>场景</b> 从通用工具走向设计、营销、客服等贸易环节</span>
+              <span><b>条件</b> 补齐算力、电商平台、人才与区域基础设施</span>
+              <span><b>治理</b> 明确数据、知识产权、内容合规与责任边界</span>
+            </div>
+          </article>
+        </section>
+
+        <section class="closing-question" data-conclusion-block="5">
+          <span>DISCUSSION</span>
+          <h3>生成式 AI 会降低企业出海门槛，还是进一步放大地区之间的数字鸿沟？</h3>
+          <p>这也是论文结论留给后续研究与政策实践的问题。</p>
+        </section>
+
+        <footer class="conclusion-footer">
+          <span>生成式人工智能与数字产品出口 · 课程论文汇报</span>
+          <span class="reveal-controls reveal-controls--dark"><kbd>←</kbd><kbd>→</kbd> 完成收束</span>
+          <strong>THANK YOU</strong>
+        </footer>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
